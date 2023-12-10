@@ -1,0 +1,186 @@
+
+
+/* classe background */
+body {
+    background: linear-gradient(180deg, #131223 0%, #300453 100%);
+    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    scrollbar-color: #9317B5 #ccc; /* Cor da barra e do track (funciona no Firefox) */
+    scrollbar-width: thin;
+    }
+
+    /* Estilos específicos para o WebKit (Chrome, Safari) */
+    body::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: #9317B5; /* Cor da barra no WebKit */
+      border-radius: 5px;
+    }
+
+    body::-webkit-scrollbar-track {
+      background-color: #ccc; /* Cor do track no WebKit */
+    }
+
+    @keyframes fadeAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+
+    }
+    
+    /* Estilos básicos para a caixa de texto */
+/* Estilos básicos para a caixa de texto */
+.caixaDeTexto  {
+  border: 8px solid #ccc;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 525px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #FFFFE0;
+  flex-direction: column;
+  animation: fadeAnimation 0.5s ease-in-out;
+  overflow-y: scroll; /* Alteração aqui: sempre mostrar a barra de rolagem */
+  max-height: 550px; /* Altura máxima da caixa de texto */
+  scrollbar-color: #9317B5 #ccc; /* Cor da barra e do track (funciona no Firefox) */
+  scrollbar-width: thin; /* Largura da barra (funciona no Firefox) */
+}
+
+.caixaDeTexto::-webkit-scrollbar {
+  width: 10px;
+}
+.caixaDeTexto::-webkit-scrollbar-thumb {
+  background-color: #9317B5; /* Cor da barra no WebKit */
+  border-radius: 5px;
+}
+
+.caixaDeTexto::-webkit-scrollbar-track {
+  background-color: #ccc; /* Cor do track no WebKit */
+}
+
+    
+    /* Estilo para o botão */
+    .botaoAtualizar {
+      align-items: center;
+      margin-left: 30px;
+      background-color: #9317B5;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .botaoAtualizar2 {
+      align-items: center;
+      margin-left: 15px;
+      background-color: #8717b2;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .botaoAtualizar3 {
+      align-items: center;
+      margin-left: 15px;
+      background-color: #7b16ae;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .botaoAtualizar4 {
+      align-items: center;
+      margin-left: 15px;
+      background-color: #6f16ab;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .botaoAtualizar5 {
+      align-items: center;
+      margin-left: 15px;
+      background-color: #6916a9;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .botaoLimpar {
+      align-items: center;
+      margin-left: 15px;
+      background-color: #6215a7;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .numeroDestaque {
+      display: inline-block;
+      padding: 10px;  /* Ajuste o padding para aumentar o tamanho do quadrado */
+      margin: 5px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #7B68EE;
+      border: 2px solid #7B68EE;
+      border-radius: 5px;
+      font-family: 'Press Start 2P', cursive;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .numeroDestaque:hover {
+      background-color: #000000;
+    }
+
+  .botaoAtualizar:hover {
+    background-color: #6A1D9F;
+  }
+  
+  .botaoAtualizar2:hover {
+    background-color: #7A259C;
+  }
+
+  .botaoAtualizar3:hover {
+    background-color: #6D21B3;
+  }
+
+  .botaoAtualizar4:hover {
+    background-color: #6D21B3;
+  }
+
+  .botaoAtualizar5:hover {
+    background-color: #6D21B3;
+  }
+
+  .botaoLimpar:hover {
+    background-color: #7A259C;
+  }
+  /* Estilos para dispositivos móveis com largura máxima de 480px */
