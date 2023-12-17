@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
 .App {
     text-align: center;
   }
@@ -7,6 +9,26 @@
     pointer-events: none;
   }
   
+  /* Estilos para links */
+h1 {
+  text-decoration: none;
+  color: #7B2CBF;
+  font-family: 'Pixelify Sans', sans-serif;
+  text-align: left;
+  margin: 32px;
+}
+a {
+  text-align: justify; /* Texto justificado */
+  text-decoration: none;
+  color: #7B2CBF;
+  font-family: 'Pixelify Sans', sans-serif;
+  margin: 32px;
+  max-width: 600px; /* Largura máxima desejada */
+  margin-left: auto; /* Alinhar à direita (opcional, para centralizar) */
+  margin-right: auto; /* Alinhar à esquerda (opcional, para centralizar) */
+  font-size: 20px;
+}
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
